@@ -1,0 +1,176 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\geometry{a4paper, margin=1in}
+\title{Training Report}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Training Outputs}
+
+% \begin{verbatim}
+% \input{training_log.txt}
+% \end{verbatim}
+
+Epoch 10/10 - Train Loss: 0.1624, Train Acc: 0.9402, Val Loss: 0.2807, Val Acc: 0.8980, Val Macro-F1: 0.8993
+Epoch 1/10 - Train Loss: 0.5391, Train Acc: 0.7937, Val Loss: 0.5745, Val Acc: 0.7827, Val Macro-F1: 0.7842
+Epoch 2/10 - Train Loss: 0.4408, Train Acc: 0.8352, Val Loss: 0.4727, Val Acc: 0.8217, Val Macro-F1: 0.8213
+Epoch 3/10 - Train Loss: 0.4035, Train Acc: 0.8462, Val Loss: 0.4360, Val Acc: 0.8315, Val Macro-F1: 0.8317
+Epoch 4/10 - Train Loss: 0.3756, Train Acc: 0.8564, Val Loss: 0.4096, Val Acc: 0.8450, Val Macro-F1: 0.8453
+Epoch 5/10 - Train Loss: 0.3655, Train Acc: 0.8592, Val Loss: 0.4059, Val Acc: 0.8450, Val Macro-F1: 0.8457
+Epoch 6/10 - Train Loss: 0.3530, Train Acc: 0.8631, Val Loss: 0.3957, Val Acc: 0.8475, Val Macro-F1: 0.8482
+Epoch 7/10 - Train Loss: 0.3382, Train Acc: 0.8687, Val Loss: 0.3877, Val Acc: 0.8513, Val Macro-F1: 0.8520
+Epoch 8/10 - Train Loss: 0.3290, Train Acc: 0.8723, Val Loss: 0.3824, Val Acc: 0.8537, Val Macro-F1: 0.8542
+Epoch 9/10 - Train Loss: 0.3156, Train Acc: 0.8768, Val Loss: 0.3731, Val Acc: 0.8615, Val Macro-F1: 0.8620
+Epoch 10/10 - Train Loss: 0.3119, Train Acc: 0.8790, Val Loss: 0.3744, Val Acc: 0.8613, Val Macro-F1: 0.8619
+Epoch 1/10 - Train Loss: 0.4628, Train Acc: 0.8272, Val Loss: 0.4979, Val Acc: 0.8130, Val Macro-F1: 0.8141
+Epoch 2/10 - Train Loss: 0.4091, Train Acc: 0.8479, Val Loss: 0.4485, Val Acc: 0.8355, Val Macro-F1: 0.8362
+Epoch 3/10 - Train Loss: 0.3859, Train Acc: 0.8513, Val Loss: 0.4283, Val Acc: 0.8357, Val Macro-F1: 0.8361
+Epoch 4/10 - Train Loss: 0.3724, Train Acc: 0.8562, Val Loss: 0.4198, Val Acc: 0.8355, Val Macro-F1: 0.8361
+Epoch 5/10 - Train Loss: 0.3584, Train Acc: 0.8590, Val Loss: 0.4121, Val Acc: 0.8392, Val Macro-F1: 0.8399
+Epoch 6/10 - Train Loss: 0.3402, Train Acc: 0.8685, Val Loss: 0.4001, Val Acc: 0.8450, Val Macro-F1: 0.8459
+Epoch 7/10 - Train Loss: 0.3276, Train Acc: 0.8730, Val Loss: 0.3935, Val Acc: 0.8500, Val Macro-F1: 0.8506
+Epoch 8/10 - Train Loss: 0.3063, Train Acc: 0.8813, Val Loss: 0.3798, Val Acc: 0.8550, Val Macro-F1: 0.8556
+Epoch 9/10 - Train Loss: 0.3012, Train Acc: 0.8834, Val Loss: 0.3793, Val Acc: 0.8563, Val Macro-F1: 0.8572
+Epoch 10/10 - Train Loss: 0.2928, Train Acc: 0.8857, Val Loss: 0.3848, Val Acc: 0.8565, Val Macro-F1: 0.8574
+Epoch 1/10 - Train Loss: 0.5915, Train Acc: 0.7838, Val Loss: 0.6299, Val Acc: 0.7737, Val Macro-F1: 0.7777
+Epoch 2/10 - Train Loss: 0.4451, Train Acc: 0.8309, Val Loss: 0.4804, Val Acc: 0.8178, Val Macro-F1: 0.8182
+Epoch 3/10 - Train Loss: 0.3869, Train Acc: 0.8526, Val Loss: 0.4269, Val Acc: 0.8385, Val Macro-F1: 0.8384
+Epoch 4/10 - Train Loss: 0.3699, Train Acc: 0.8572, Val Loss: 0.4123, Val Acc: 0.8435, Val Macro-F1: 0.8436
+Epoch 5/10 - Train Loss: 0.3574, Train Acc: 0.8592, Val Loss: 0.4029, Val Acc: 0.8433, Val Macro-F1: 0.8438
+Epoch 6/10 - Train Loss: 0.3373, Train Acc: 0.8684, Val Loss: 0.3879, Val Acc: 0.8515, Val Macro-F1: 0.8519
+Epoch 7/10 - Train Loss: 0.3273, Train Acc: 0.8726, Val Loss: 0.3834, Val Acc: 0.8535, Val Macro-F1: 0.8541
+Epoch 8/10 - Train Loss: 0.3102, Train Acc: 0.8794, Val Loss: 0.3748, Val Acc: 0.8580, Val Macro-F1: 0.8588
+Epoch 9/10 - Train Loss: 0.3060, Train Acc: 0.8803, Val Loss: 0.3767, Val Acc: 0.8560, Val Macro-F1: 0.8571
+Epoch 10/10 - Train Loss: 0.2993, Train Acc: 0.8824, Val Loss: 0.3765, Val Acc: 0.8568, Val Macro-F1: 0.8579
+Epoch 1/10 - Train Loss: 0.2583, Train Acc: 0.9021, Val Loss: 0.3273, Val Acc: 0.8808, Val Macro-F1: 0.8812
+Epoch 2/10 - Train Loss: 0.2551, Train Acc: 0.9034, Val Loss: 0.3264, Val Acc: 0.8813, Val Macro-F1: 0.8817
+Epoch 3/10 - Train Loss: 0.2522, Train Acc: 0.9044, Val Loss: 0.3262, Val Acc: 0.8825, Val Macro-F1: 0.8828
+Epoch 4/10 - Train Loss: 0.2500, Train Acc: 0.9054, Val Loss: 0.3266, Val Acc: 0.8815, Val Macro-F1: 0.8819
+Epoch 5/10 - Train Loss: 0.2479, Train Acc: 0.9062, Val Loss: 0.3266, Val Acc: 0.8813, Val Macro-F1: 0.8817
+Epoch 6/10 - Train Loss: 0.2454, Train Acc: 0.9072, Val Loss: 0.3267, Val Acc: 0.8825, Val Macro-F1: 0.8829
+Epoch 7/10 - Train Loss: 0.2434, Train Acc: 0.9079, Val Loss: 0.3275, Val Acc: 0.8825, Val Macro-F1: 0.8829
+Epoch 8/10 - Train Loss: 0.2416, Train Acc: 0.9079, Val Loss: 0.3283, Val Acc: 0.8822, Val Macro-F1: 0.8826
+Epoch 9/10 - Train Loss: 0.2395, Train Acc: 0.9088, Val Loss: 0.3287, Val Acc: 0.8825, Val Macro-F1: 0.8829
+Epoch 10/10 - Train Loss: 0.2376, Train Acc: 0.9092, Val Loss: 0.3297, Val Acc: 0.8827, Val Macro-F1: 0.8831
+Epoch 1/10 - Train Loss: 0.2256, Train Acc: 0.9141, Val Loss: 0.3221, Val Acc: 0.8840, Val Macro-F1: 0.8838
+Epoch 2/10 - Train Loss: 0.2195, Train Acc: 0.9164, Val Loss: 0.3195, Val Acc: 0.8840, Val Macro-F1: 0.8839
+Epoch 3/10 - Train Loss: 0.2150, Train Acc: 0.9177, Val Loss: 0.3192, Val Acc: 0.8877, Val Macro-F1: 0.8875
+Epoch 4/10 - Train Loss: 0.2115, Train Acc: 0.9192, Val Loss: 0.3200, Val Acc: 0.8880, Val Macro-F1: 0.8878
+Epoch 5/10 - Train Loss: 0.2083, Train Acc: 0.9208, Val Loss: 0.3214, Val Acc: 0.8900, Val Macro-F1: 0.8898
+Epoch 6/10 - Train Loss: 0.2042, Train Acc: 0.9224, Val Loss: 0.3212, Val Acc: 0.8910, Val Macro-F1: 0.8909
+Epoch 7/10 - Train Loss: 0.2015, Train Acc: 0.9232, Val Loss: 0.3222, Val Acc: 0.8920, Val Macro-F1: 0.8918
+Epoch 8/10 - Train Loss: 0.1987, Train Acc: 0.9238, Val Loss: 0.3233, Val Acc: 0.8912, Val Macro-F1: 0.8910
+Epoch 9/10 - Train Loss: 0.1957, Train Acc: 0.9248, Val Loss: 0.3245, Val Acc: 0.8920, Val Macro-F1: 0.8918
+Epoch 10/10 - Train Loss: 0.1935, Train Acc: 0.9254, Val Loss: 0.3262, Val Acc: 0.8930, Val Macro-F1: 0.8928
+Epoch 1/10 - Train Loss: 0.2346, Train Acc: 0.9124, Val Loss: 0.3185, Val Acc: 0.8852, Val Macro-F1: 0.8851
+Epoch 2/10 - Train Loss: 0.2297, Train Acc: 0.9133, Val Loss: 0.3175, Val Acc: 0.8847, Val Macro-F1: 0.8846
+Epoch 3/10 - Train Loss: 0.2265, Train Acc: 0.9145, Val Loss: 0.3183, Val Acc: 0.8850, Val Macro-F1: 0.8849
+Epoch 4/10 - Train Loss: 0.2234, Train Acc: 0.9154, Val Loss: 0.3188, Val Acc: 0.8858, Val Macro-F1: 0.8857
+Epoch 5/10 - Train Loss: 0.2200, Train Acc: 0.9166, Val Loss: 0.3191, Val Acc: 0.8850, Val Macro-F1: 0.8849
+Epoch 6/10 - Train Loss: 0.2167, Train Acc: 0.9177, Val Loss: 0.3192, Val Acc: 0.8855, Val Macro-F1: 0.8855
+Epoch 7/10 - Train Loss: 0.2139, Train Acc: 0.9187, Val Loss: 0.3204, Val Acc: 0.8852, Val Macro-F1: 0.8851
+Epoch 8/10 - Train Loss: 0.2111, Train Acc: 0.9197, Val Loss: 0.3210, Val Acc: 0.8855, Val Macro-F1: 0.8854
+Epoch 9/10 - Train Loss: 0.2080, Train Acc: 0.9208, Val Loss: 0.3216, Val Acc: 0.8852, Val Macro-F1: 0.8851
+Epoch 10/10 - Train Loss: 0.2055, Train Acc: 0.9215, Val Loss: 0.3229, Val Acc: 0.8855, Val Macro-F1: 0.8855
+Epoch 1/10 - Train Loss: 0.2278, Train Acc: 0.9135, Val Loss: 0.3221, Val Acc: 0.8850, Val Macro-F1: 0.8853
+Epoch 2/10 - Train Loss: 0.2267, Train Acc: 0.9142, Val Loss: 0.3225, Val Acc: 0.8857, Val Macro-F1: 0.8859
+Epoch 3/10 - Train Loss: 0.2255, Train Acc: 0.9148, Val Loss: 0.3228, Val Acc: 0.8867, Val Macro-F1: 0.8869
+Epoch 4/10 - Train Loss: 0.2244, Train Acc: 0.9151, Val Loss: 0.3230, Val Acc: 0.8868, Val Macro-F1: 0.8871
+Epoch 5/10 - Train Loss: 0.2232, Train Acc: 0.9155, Val Loss: 0.3232, Val Acc: 0.8865, Val Macro-F1: 0.8867
+Epoch 6/10 - Train Loss: 0.2222, Train Acc: 0.9161, Val Loss: 0.3238, Val Acc: 0.8872, Val Macro-F1: 0.8874
+Epoch 7/10 - Train Loss: 0.2211, Train Acc: 0.9164, Val Loss: 0.3241, Val Acc: 0.8873, Val Macro-F1: 0.8875
+Epoch 8/10 - Train Loss: 0.2199, Train Acc: 0.9169, Val Loss: 0.3244, Val Acc: 0.8872, Val Macro-F1: 0.8874
+Epoch 9/10 - Train Loss: 0.2190, Train Acc: 0.9172, Val Loss: 0.3250, Val Acc: 0.8867, Val Macro-F1: 0.8868
+Epoch 10/10 - Train Loss: 0.2180, Train Acc: 0.9176, Val Loss: 0.3256, Val Acc: 0.8872, Val Macro-F1: 0.8872
+Epoch 1/10 - Train Loss: 0.1839, Train Acc: 0.9299, Val Loss: 0.3203, Val Acc: 0.8942, Val Macro-F1: 0.8939
+Epoch 2/10 - Train Loss: 0.1823, Train Acc: 0.9304, Val Loss: 0.3213, Val Acc: 0.8950, Val Macro-F1: 0.8948
+Epoch 3/10 - Train Loss: 0.1805, Train Acc: 0.9307, Val Loss: 0.3221, Val Acc: 0.8947, Val Macro-F1: 0.8944
+Epoch 4/10 - Train Loss: 0.1789, Train Acc: 0.9314, Val Loss: 0.3232, Val Acc: 0.8952, Val Macro-F1: 0.8950
+Epoch 5/10 - Train Loss: 0.1772, Train Acc: 0.9323, Val Loss: 0.3242, Val Acc: 0.8943, Val Macro-F1: 0.8941
+Epoch 6/10 - Train Loss: 0.1758, Train Acc: 0.9329, Val Loss: 0.3255, Val Acc: 0.8940, Val Macro-F1: 0.8938
+Epoch 7/10 - Train Loss: 0.1745, Train Acc: 0.9336, Val Loss: 0.3267, Val Acc: 0.8947, Val Macro-F1: 0.8945
+Epoch 8/10 - Train Loss: 0.1730, Train Acc: 0.9344, Val Loss: 0.3278, Val Acc: 0.8947, Val Macro-F1: 0.8945
+Epoch 9/10 - Train Loss: 0.1718, Train Acc: 0.9344, Val Loss: 0.3294, Val Acc: 0.8938, Val Macro-F1: 0.8936
+Epoch 10/10 - Train Loss: 0.1704, Train Acc: 0.9348, Val Loss: 0.3306, Val Acc: 0.8940, Val Macro-F1: 0.8938
+Epoch 1/10 - Train Loss: 0.1942, Train Acc: 0.9270, Val Loss: 0.3153, Val Acc: 0.8890, Val Macro-F1: 0.8888
+Epoch 2/10 - Train Loss: 0.1923, Train Acc: 0.9277, Val Loss: 0.3157, Val Acc: 0.8897, Val Macro-F1: 0.8895
+Epoch 3/10 - Train Loss: 0.1906, Train Acc: 0.9280, Val Loss: 0.3165, Val Acc: 0.8898, Val Macro-F1: 0.8897
+Epoch 4/10 - Train Loss: 0.1888, Train Acc: 0.9285, Val Loss: 0.3168, Val Acc: 0.8900, Val Macro-F1: 0.8899
+Epoch 5/10 - Train Loss: 0.1870, Train Acc: 0.9296, Val Loss: 0.3175, Val Acc: 0.8902, Val Macro-F1: 0.8900
+Epoch 6/10 - Train Loss: 0.1851, Train Acc: 0.9303, Val Loss: 0.3180, Val Acc: 0.8890, Val Macro-F1: 0.8889
+Epoch 7/10 - Train Loss: 0.1840, Train Acc: 0.9308, Val Loss: 0.3189, Val Acc: 0.8885, Val Macro-F1: 0.8884
+Epoch 8/10 - Train Loss: 0.1822, Train Acc: 0.9313, Val Loss: 0.3197, Val Acc: 0.8890, Val Macro-F1: 0.8889
+Epoch 9/10 - Train Loss: 0.1808, Train Acc: 0.9317, Val Loss: 0.3205, Val Acc: 0.8887, Val Macro-F1: 0.8886
+Epoch 10/10 - Train Loss: 0.1794, Train Acc: 0.9321, Val Loss: 0.3216, Val Acc: 0.8885, Val Macro-F1: 0.8884
+Epoch 1/10 - Train Loss: 0.2110, Train Acc: 0.9211, Val Loss: 0.3184, Val Acc: 0.8918, Val Macro-F1: 0.8915
+Epoch 2/10 - Train Loss: 0.2105, Train Acc: 0.9212, Val Loss: 0.3180, Val Acc: 0.8917, Val Macro-F1: 0.8914
+Epoch 3/10 - Train Loss: 0.2103, Train Acc: 0.9214, Val Loss: 0.3180, Val Acc: 0.8915, Val Macro-F1: 0.8912
+Epoch 4/10 - Train Loss: 0.2100, Train Acc: 0.9216, Val Loss: 0.3181, Val Acc: 0.8915, Val Macro-F1: 0.8912
+Epoch 5/10 - Train Loss: 0.2097, Train Acc: 0.9219, Val Loss: 0.3182, Val Acc: 0.8913, Val Macro-F1: 0.8910
+Epoch 6/10 - Train Loss: 0.2094, Train Acc: 0.9221, Val Loss: 0.3182, Val Acc: 0.8912, Val Macro-F1: 0.8908
+Epoch 7/10 - Train Loss: 0.2092, Train Acc: 0.9222, Val Loss: 0.3184, Val Acc: 0.8910, Val Macro-F1: 0.8907
+Epoch 8/10 - Train Loss: 0.2090, Train Acc: 0.9223, Val Loss: 0.3185, Val Acc: 0.8910, Val Macro-F1: 0.8907
+Epoch 9/10 - Train Loss: 0.2087, Train Acc: 0.9225, Val Loss: 0.3186, Val Acc: 0.8910, Val Macro-F1: 0.8906
+Epoch 10/10 - Train Loss: 0.2085, Train Acc: 0.9225, Val Loss: 0.3188, Val Acc: 0.8905, Val Macro-F1: 0.8901
+Epoch 1/10 - Train Loss: 0.1630, Train Acc: 0.9384, Val Loss: 0.3238, Val Acc: 0.8955, Val Macro-F1: 0.8950
+Epoch 2/10 - Train Loss: 0.1624, Train Acc: 0.9386, Val Loss: 0.3239, Val Acc: 0.8953, Val Macro-F1: 0.8948
+Epoch 3/10 - Train Loss: 0.1620, Train Acc: 0.9389, Val Loss: 0.3241, Val Acc: 0.8955, Val Macro-F1: 0.8950
+Epoch 4/10 - Train Loss: 0.1616, Train Acc: 0.9391, Val Loss: 0.3243, Val Acc: 0.8958, Val Macro-F1: 0.8953
+Epoch 5/10 - Train Loss: 0.1613, Train Acc: 0.9393, Val Loss: 0.3246, Val Acc: 0.8953, Val Macro-F1: 0.8948
+Epoch 6/10 - Train Loss: 0.1609, Train Acc: 0.9394, Val Loss: 0.3250, Val Acc: 0.8950, Val Macro-F1: 0.8945
+Epoch 7/10 - Train Loss: 0.1605, Train Acc: 0.9394, Val Loss: 0.3253, Val Acc: 0.8950, Val Macro-F1: 0.8945
+Epoch 8/10 - Train Loss: 0.1602, Train Acc: 0.9396, Val Loss: 0.3255, Val Acc: 0.8947, Val Macro-F1: 0.8942
+Epoch 9/10 - Train Loss: 0.1598, Train Acc: 0.9397, Val Loss: 0.3258, Val Acc: 0.8945, Val Macro-F1: 0.8940
+Epoch 10/10 - Train Loss: 0.1595, Train Acc: 0.9398, Val Loss: 0.3261, Val Acc: 0.8943, Val Macro-F1: 0.8938
+Epoch 1/10 - Train Loss: 0.1697, Train Acc: 0.9362, Val Loss: 0.3116, Val Acc: 0.8923, Val Macro-F1: 0.8920
+Epoch 2/10 - Train Loss: 0.1690, Train Acc: 0.9364, Val Loss: 0.3118, Val Acc: 0.8927, Val Macro-F1: 0.8924
+Epoch 3/10 - Train Loss: 0.1685, Train Acc: 0.9366, Val Loss: 0.3120, Val Acc: 0.8925, Val Macro-F1: 0.8922
+Epoch 4/10 - Train Loss: 0.1680, Train Acc: 0.9369, Val Loss: 0.3122, Val Acc: 0.8927, Val Macro-F1: 0.8923
+Epoch 5/10 - Train Loss: 0.1676, Train Acc: 0.9370, Val Loss: 0.3123, Val Acc: 0.8923, Val Macro-F1: 0.8920
+Epoch 6/10 - Train Loss: 0.1672, Train Acc: 0.9372, Val Loss: 0.3125, Val Acc: 0.8923, Val Macro-F1: 0.8920
+Epoch 7/10 - Train Loss: 0.1667, Train Acc: 0.9374, Val Loss: 0.3127, Val Acc: 0.8920, Val Macro-F1: 0.8917
+Epoch 8/10 - Train Loss: 0.1663, Train Acc: 0.9376, Val Loss: 0.3129, Val Acc: 0.8920, Val Macro-F1: 0.8917
+Epoch 9/10 - Train Loss: 0.1659, Train Acc: 0.9378, Val Loss: 0.3131, Val Acc: 0.8920, Val Macro-F1: 0.8917
+Epoch 10/10 - Train Loss: 0.1655, Train Acc: 0.9379, Val Loss: 0.3133, Val Acc: 0.8925, Val Macro-F1: 0.8922
+
+
+\newpage
+\section{Plots}
+
+\section{Confusion Matrices}
+
+% Add confusion matrix images dynamically
+\newcounter{confusionPlot}
+\setcounter{confusionPlot}{0}
+
+
+% Plot 2
+\begin{figure}[h!]
+    \centering
+    \addtocounter{confusionPlot}{1}
+    \includegraphics[width=0.8\textwidth]{confusion_matrix_\theconfusionPlot.png}
+    \caption{Confusion Matrix (LR: 0.005, Arch: 784-128-64-10)}
+\end{figure}
+
+\section{Confusion Matrix for Best Model}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{confusion_matrix_best_model.png}
+    \caption{Confusion Matrix for Best Model on Validation Set}
+\end{figure}
+
+
+% More confusion matrices as needed
+
+
+\end{document}
